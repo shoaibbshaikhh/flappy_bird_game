@@ -201,6 +201,7 @@ if __name__ == "__main__":
     )
 
     # Game sounds
+    pygame.mixer.init()
     GAME_SOUNDS['die'] = pygame.mixer.Sound('gallery/audio/die.wav')
     GAME_SOUNDS['hit'] = pygame.mixer.Sound('gallery/audio/hit.wav')
     GAME_SOUNDS['point'] = pygame.mixer.Sound('gallery/audio/point.wav')
